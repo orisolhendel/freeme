@@ -122,7 +122,6 @@ class AnswersList extends Component {
                         <ReactTable
                             data={answers}
                             columns={columns}
-                            loading={isLoading}
                             defaultPageSize={10}
                             showPageSizeOptions={false} 
                             showPagination={false}
